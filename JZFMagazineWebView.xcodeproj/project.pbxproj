@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38B27CE94B47FE30653B46D0 /* libPods-JZFMagazineWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 163EC6CEC1AEF9037086CAB0 /* libPods-JZFMagazineWebViewTests.a */; };
+		846197DD1F25D3F10002A85A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846197DC1F25D3F10002A85A /* main.m */; };
+		846197E01F25D3F10002A85A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846197DF1F25D3F10002A85A /* AppDelegate.m */; };
+		846197E31F25D3F10002A85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846197E21F25D3F10002A85A /* ViewController.m */; };
+		846197E61F25D3F10002A85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846197E41F25D3F10002A85A /* Main.storyboard */; };
+		846197E81F25D3F10002A85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846197E71F25D3F10002A85A /* Assets.xcassets */; };
+		846197EB1F25D3F10002A85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846197E91F25D3F10002A85A /* LaunchScreen.storyboard */; };
+		846197F61F25D3F10002A85A /* JZFMagazineWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846197F51F25D3F10002A85A /* JZFMagazineWebViewTests.m */; };
+		846198011F25D3F10002A85A /* JZFMagazineWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846198001F25D3F10002A85A /* JZFMagazineWebViewUITests.m */; };
+		846198111F25DB520002A85A /* MyWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461980F1F25DB520002A85A /* MyWKWebViewVC.m */; };
+		846198121F25DB520002A85A /* MyWKWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846198101F25DB520002A85A /* MyWKWebViewVC.xib */; };
+		846198141F25DDDC0002A85A /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 846198131F25DDDC0002A85A /* test.html */; };
+		84FC1E3B1F25F44F0006F6EB /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC1E351F25F44F0006F6EB /* SDBrowserImageView.m */; };
+		84FC1E3C1F25F44F0006F6EB /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC1E371F25F44F0006F6EB /* SDPhotoBrowser.m */; };
+		84FC1E3D1F25F44F0006F6EB /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC1E3A1F25F44F0006F6EB /* SDWaitingView.m */; };
+		86CE10758A0993096BC94324 /* libPods-JZFMagazineWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F00364483B4C8BAB4824976 /* libPods-JZFMagazineWebViewUITests.a */; };
+		C919968766C66095B24C9E5E /* libPods-JZFMagazineWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59C17C4BF17E42FD3062D54 /* libPods-JZFMagazineWebView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846197F21F25D3F10002A85A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846197D01F25D3F10002A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846197D71F25D3F10002A85A;
+			remoteInfo = JZFMagazineWebView;
+		};
+		846197FD1F25D3F10002A85A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846197D01F25D3F10002A85A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846197D71F25D3F10002A85A;
+			remoteInfo = JZFMagazineWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163EC6CEC1AEF9037086CAB0 /* libPods-JZFMagazineWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZFMagazineWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F00364483B4C8BAB4824976 /* libPods-JZFMagazineWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZFMagazineWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69813B74305875EA29AD4DAE /* Pods-JZFMagazineWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebView/Pods-JZFMagazineWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		73C96E5655499BD4D03DE90A /* Pods-JZFMagazineWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebViewUITests/Pods-JZFMagazineWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83E5E23482AD9AB9B1D031DA /* Pods-JZFMagazineWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebViewTests/Pods-JZFMagazineWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		846197D81F25D3F10002A85A /* JZFMagazineWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZFMagazineWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846197DC1F25D3F10002A85A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846197DE1F25D3F10002A85A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846197DF1F25D3F10002A85A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846197E11F25D3F10002A85A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846197E21F25D3F10002A85A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846197E51F25D3F10002A85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846197E71F25D3F10002A85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846197EA1F25D3F10002A85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846197EC1F25D3F10002A85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846197F11F25D3F10002A85A /* JZFMagazineWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZFMagazineWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846197F51F25D3F10002A85A /* JZFMagazineWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZFMagazineWebViewTests.m; sourceTree = "<group>"; };
+		846197F71F25D3F10002A85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846197FC1F25D3F10002A85A /* JZFMagazineWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZFMagazineWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846198001F25D3F10002A85A /* JZFMagazineWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZFMagazineWebViewUITests.m; sourceTree = "<group>"; };
+		846198021F25D3F10002A85A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8461980E1F25DB520002A85A /* MyWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWKWebViewVC.h; sourceTree = "<group>"; };
+		8461980F1F25DB520002A85A /* MyWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWKWebViewVC.m; sourceTree = "<group>"; };
+		846198101F25DB520002A85A /* MyWKWebViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWKWebViewVC.xib; sourceTree = "<group>"; };
+		846198131F25DDDC0002A85A /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		84FC1E341F25F44F0006F6EB /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		84FC1E351F25F44F0006F6EB /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		84FC1E361F25F44F0006F6EB /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		84FC1E371F25F44F0006F6EB /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		84FC1E381F25F44F0006F6EB /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		84FC1E391F25F44F0006F6EB /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		84FC1E3A1F25F44F0006F6EB /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		9E7F3D218AF37CE7AB2504D4 /* Pods-JZFMagazineWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebView/Pods-JZFMagazineWebView.release.xcconfig"; sourceTree = "<group>"; };
+		B70D51D6A165A2712BE12AC0 /* Pods-JZFMagazineWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebViewTests/Pods-JZFMagazineWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		C59C17C4BF17E42FD3062D54 /* libPods-JZFMagazineWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZFMagazineWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE40FF498B9E08D37D8FFD92 /* Pods-JZFMagazineWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFMagazineWebViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZFMagazineWebViewUITests/Pods-JZFMagazineWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846197D51F25D3F10002A85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C919968766C66095B24C9E5E /* libPods-JZFMagazineWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197EE1F25D3F10002A85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B27CE94B47FE30653B46D0 /* libPods-JZFMagazineWebViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197F91F25D3F10002A85A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CE10758A0993096BC94324 /* libPods-JZFMagazineWebViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846197CF1F25D3F10002A85A = {
+			isa = PBXGroup;
+			children = (
+				846197DA1F25D3F10002A85A /* JZFMagazineWebView */,
+				846197F41F25D3F10002A85A /* JZFMagazineWebViewTests */,
+				846197FF1F25D3F10002A85A /* JZFMagazineWebViewUITests */,
+				846197D91F25D3F10002A85A /* Products */,
+				FE9EA6572959D2455A4190D0 /* Pods */,
+				C01CB37B0E2498D798E58E5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846197D91F25D3F10002A85A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846197D81F25D3F10002A85A /* JZFMagazineWebView.app */,
+				846197F11F25D3F10002A85A /* JZFMagazineWebViewTests.xctest */,
+				846197FC1F25D3F10002A85A /* JZFMagazineWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846197DA1F25D3F10002A85A /* JZFMagazineWebView */ = {
+			isa = PBXGroup;
+			children = (
+				84FC1E331F25F44F0006F6EB /* SDPhotoBrowser */,
+				846198131F25DDDC0002A85A /* test.html */,
+				846197DE1F25D3F10002A85A /* AppDelegate.h */,
+				846197DF1F25D3F10002A85A /* AppDelegate.m */,
+				846197E11F25D3F10002A85A /* ViewController.h */,
+				846197E21F25D3F10002A85A /* ViewController.m */,
+				8461980E1F25DB520002A85A /* MyWKWebViewVC.h */,
+				8461980F1F25DB520002A85A /* MyWKWebViewVC.m */,
+				846198101F25DB520002A85A /* MyWKWebViewVC.xib */,
+				846197E41F25D3F10002A85A /* Main.storyboard */,
+				846197E71F25D3F10002A85A /* Assets.xcassets */,
+				846197E91F25D3F10002A85A /* LaunchScreen.storyboard */,
+				846197EC1F25D3F10002A85A /* Info.plist */,
+				846197DB1F25D3F10002A85A /* Supporting Files */,
+			);
+			path = JZFMagazineWebView;
+			sourceTree = "<group>";
+		};
+		846197DB1F25D3F10002A85A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846197DC1F25D3F10002A85A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846197F41F25D3F10002A85A /* JZFMagazineWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				846197F51F25D3F10002A85A /* JZFMagazineWebViewTests.m */,
+				846197F71F25D3F10002A85A /* Info.plist */,
+			);
+			path = JZFMagazineWebViewTests;
+			sourceTree = "<group>";
+		};
+		846197FF1F25D3F10002A85A /* JZFMagazineWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846198001F25D3F10002A85A /* JZFMagazineWebViewUITests.m */,
+				846198021F25D3F10002A85A /* Info.plist */,
+			);
+			path = JZFMagazineWebViewUITests;
+			sourceTree = "<group>";
+		};
+		84FC1E331F25F44F0006F6EB /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				84FC1E341F25F44F0006F6EB /* SDBrowserImageView.h */,
+				84FC1E351F25F44F0006F6EB /* SDBrowserImageView.m */,
+				84FC1E361F25F44F0006F6EB /* SDPhotoBrowser.h */,
+				84FC1E371F25F44F0006F6EB /* SDPhotoBrowser.m */,
+				84FC1E381F25F44F0006F6EB /* SDPhotoBrowserConfig.h */,
+				84FC1E391F25F44F0006F6EB /* SDWaitingView.h */,
+				84FC1E3A1F25F44F0006F6EB /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		C01CB37B0E2498D798E58E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59C17C4BF17E42FD3062D54 /* libPods-JZFMagazineWebView.a */,
+				163EC6CEC1AEF9037086CAB0 /* libPods-JZFMagazineWebViewTests.a */,
+				1F00364483B4C8BAB4824976 /* libPods-JZFMagazineWebViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9EA6572959D2455A4190D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69813B74305875EA29AD4DAE /* Pods-JZFMagazineWebView.debug.xcconfig */,
+				9E7F3D218AF37CE7AB2504D4 /* Pods-JZFMagazineWebView.release.xcconfig */,
+				83E5E23482AD9AB9B1D031DA /* Pods-JZFMagazineWebViewTests.debug.xcconfig */,
+				B70D51D6A165A2712BE12AC0 /* Pods-JZFMagazineWebViewTests.release.xcconfig */,
+				FE40FF498B9E08D37D8FFD92 /* Pods-JZFMagazineWebViewUITests.debug.xcconfig */,
+				73C96E5655499BD4D03DE90A /* Pods-JZFMagazineWebViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846197D71F25D3F10002A85A /* JZFMagazineWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846198051F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebView" */;
+			buildPhases = (
+				2B5CEF714BF8B42915CE7012 /* [CP] Check Pods Manifest.lock */,
+				846197D41F25D3F10002A85A /* Sources */,
+				846197D51F25D3F10002A85A /* Frameworks */,
+				846197D61F25D3F10002A85A /* Resources */,
+				72B6970DAF4A58BE6F8E0C2C /* [CP] Embed Pods Frameworks */,
+				1DC09B1F6893E3FB91F5442C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZFMagazineWebView;
+			productName = JZFMagazineWebView;
+			productReference = 846197D81F25D3F10002A85A /* JZFMagazineWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846197F01F25D3F10002A85A /* JZFMagazineWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846198081F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebViewTests" */;
+			buildPhases = (
+				8C2C0F40A591375C36074A3B /* [CP] Check Pods Manifest.lock */,
+				846197ED1F25D3F10002A85A /* Sources */,
+				846197EE1F25D3F10002A85A /* Frameworks */,
+				846197EF1F25D3F10002A85A /* Resources */,
+				7A048B05BB8E58D811ED4DCE /* [CP] Embed Pods Frameworks */,
+				9BABF51A563237B44E7EB2AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846197F31F25D3F10002A85A /* PBXTargetDependency */,
+			);
+			name = JZFMagazineWebViewTests;
+			productName = JZFMagazineWebViewTests;
+			productReference = 846197F11F25D3F10002A85A /* JZFMagazineWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846197FB1F25D3F10002A85A /* JZFMagazineWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8461980B1F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebViewUITests" */;
+			buildPhases = (
+				559BFD85FEBEB607E8725145 /* [CP] Check Pods Manifest.lock */,
+				846197F81F25D3F10002A85A /* Sources */,
+				846197F91F25D3F10002A85A /* Frameworks */,
+				846197FA1F25D3F10002A85A /* Resources */,
+				BDDAE90F686B192E0036750D /* [CP] Embed Pods Frameworks */,
+				3245340F7A806B6EA000BFA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846197FE1F25D3F10002A85A /* PBXTargetDependency */,
+			);
+			name = JZFMagazineWebViewUITests;
+			productName = JZFMagazineWebViewUITests;
+			productReference = 846197FC1F25D3F10002A85A /* JZFMagazineWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846197D01F25D3F10002A85A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					846197D71F25D3F10002A85A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCDRA9FBT5;
+						ProvisioningStyle = Automatic;
+					};
+					846197F01F25D3F10002A85A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCDRA9FBT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846197D71F25D3F10002A85A;
+					};
+					846197FB1F25D3F10002A85A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCDRA9FBT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846197D71F25D3F10002A85A;
+					};
+				};
+			};
+			buildConfigurationList = 846197D31F25D3F10002A85A /* Build configuration list for PBXProject "JZFMagazineWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846197CF1F25D3F10002A85A;
+			productRefGroup = 846197D91F25D3F10002A85A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846197D71F25D3F10002A85A /* JZFMagazineWebView */,
+				846197F01F25D3F10002A85A /* JZFMagazineWebViewTests */,
+				846197FB1F25D3F10002A85A /* JZFMagazineWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846197D61F25D3F10002A85A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846198121F25DB520002A85A /* MyWKWebViewVC.xib in Resources */,
+				846197EB1F25D3F10002A85A /* LaunchScreen.storyboard in Resources */,
+				846197E81F25D3F10002A85A /* Assets.xcassets in Resources */,
+				846198141F25DDDC0002A85A /* test.html in Resources */,
+				846197E61F25D3F10002A85A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197EF1F25D3F10002A85A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197FA1F25D3F10002A85A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DC09B1F6893E3FB91F5442C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebView/Pods-JZFMagazineWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5CEF714BF8B42915CE7012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3245340F7A806B6EA000BFA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebViewUITests/Pods-JZFMagazineWebViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559BFD85FEBEB607E8725145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72B6970DAF4A58BE6F8E0C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebView/Pods-JZFMagazineWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A048B05BB8E58D811ED4DCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebViewTests/Pods-JZFMagazineWebViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2C0F40A591375C36074A3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BABF51A563237B44E7EB2AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebViewTests/Pods-JZFMagazineWebViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDAE90F686B192E0036750D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFMagazineWebViewUITests/Pods-JZFMagazineWebViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846197D41F25D3F10002A85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FC1E3C1F25F44F0006F6EB /* SDPhotoBrowser.m in Sources */,
+				846198111F25DB520002A85A /* MyWKWebViewVC.m in Sources */,
+				846197E31F25D3F10002A85A /* ViewController.m in Sources */,
+				846197E01F25D3F10002A85A /* AppDelegate.m in Sources */,
+				84FC1E3D1F25F44F0006F6EB /* SDWaitingView.m in Sources */,
+				846197DD1F25D3F10002A85A /* main.m in Sources */,
+				84FC1E3B1F25F44F0006F6EB /* SDBrowserImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197ED1F25D3F10002A85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846197F61F25D3F10002A85A /* JZFMagazineWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846197F81F25D3F10002A85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846198011F25D3F10002A85A /* JZFMagazineWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846197F31F25D3F10002A85A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846197D71F25D3F10002A85A /* JZFMagazineWebView */;
+			targetProxy = 846197F21F25D3F10002A85A /* PBXContainerItemProxy */;
+		};
+		846197FE1F25D3F10002A85A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846197D71F25D3F10002A85A /* JZFMagazineWebView */;
+			targetProxy = 846197FD1F25D3F10002A85A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846197E41F25D3F10002A85A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846197E51F25D3F10002A85A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846197E91F25D3F10002A85A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846197EA1F25D3F10002A85A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846198031F25D3F10002A85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846198041F25D3F10002A85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846198061F25D3F10002A85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69813B74305875EA29AD4DAE /* Pods-JZFMagazineWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846198071F25D3F10002A85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7F3D218AF37CE7AB2504D4 /* Pods-JZFMagazineWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846198091F25D3F10002A85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E5E23482AD9AB9B1D031DA /* Pods-JZFMagazineWebViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZFMagazineWebView.app/JZFMagazineWebView";
+			};
+			name = Debug;
+		};
+		8461980A1F25D3F10002A85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70D51D6A165A2712BE12AC0 /* Pods-JZFMagazineWebViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JZFMagazineWebView.app/JZFMagazineWebView";
+			};
+			name = Release;
+		};
+		8461980C1F25D3F10002A85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE40FF498B9E08D37D8FFD92 /* Pods-JZFMagazineWebViewUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZFMagazineWebView;
+			};
+			name = Debug;
+		};
+		8461980D1F25D3F10002A85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C96E5655499BD4D03DE90A /* Pods-JZFMagazineWebViewUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PCDRA9FBT5;
+				INFOPLIST_FILE = JZFMagazineWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.com.cn.JZFMagazineWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JZFMagazineWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846197D31F25D3F10002A85A /* Build configuration list for PBXProject "JZFMagazineWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846198031F25D3F10002A85A /* Debug */,
+				846198041F25D3F10002A85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846198051F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846198061F25D3F10002A85A /* Debug */,
+				846198071F25D3F10002A85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846198081F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846198091F25D3F10002A85A /* Debug */,
+				8461980A1F25D3F10002A85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8461980B1F25D3F10002A85A /* Build configuration list for PBXNativeTarget "JZFMagazineWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8461980C1F25D3F10002A85A /* Debug */,
+				8461980D1F25D3F10002A85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846197D01F25D3F10002A85A /* Project object */;
+}
