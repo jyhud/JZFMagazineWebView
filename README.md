@@ -3,7 +3,7 @@
 
 1 .将网页中的图片缓存到本地，替换网页中的 img 路径为缓存图片的本地路径 节省流量
 
-
+![Image text](https://github.com/jzfjay/JZFMagazineWebView/blob/master/Screenshots/CC06B770-B7AB-492F-9A1A-DA340DD78EC4.png)
 
 2 .点击网页中的图片可以浏览图片 
 
