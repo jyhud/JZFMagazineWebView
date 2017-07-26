@@ -7,3 +7,5 @@
 
 2 .点击网页中的图片可以浏览图片 
 
+![Image text](https://github.com/jzfjay/JZFMagazineWebView/blob/master/Screenshots/132ECEC9-1BF4-4DCC-93AC-959C24AE1F10.png)
+
